@@ -37,6 +37,7 @@ class EditEntryWidget;
 class EditGroupWidget;
 class Entry;
 class EntryView;
+class EntrySearcher;
 class Group;
 class GroupView;
 class KeePass1OpenWidget;
@@ -238,8 +239,8 @@ private:
     EntryPreviewWidget* m_previewView;
 
     // Search state
+    EntrySearcher* m_EntrySearcher;
     QString m_lastSearchText;
-    bool m_searchCaseSensitive;
     bool m_searchLimitGroup;
 
     // CSV import state
