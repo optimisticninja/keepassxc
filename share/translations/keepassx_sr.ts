@@ -253,6 +253,10 @@ Please select whether you want to allow access.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+        <source>&amp;Tor Browser</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation type="unfinished"/>

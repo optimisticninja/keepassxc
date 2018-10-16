@@ -254,6 +254,10 @@ Lütfen erişime izin vermek isteyip istemediğinizi belirtin.</translation>
         <translation>&amp;Vivaldi</translation>
     </message>
     <message>
+        <source>&amp;Tor Browser</source>
+        <translation>&amp;Tor Browser</translation>
+    </message>
+    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>Kimlik bilgileri istendiğinde bir &amp;bildirim göster</translation>

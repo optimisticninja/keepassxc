@@ -96,6 +96,7 @@ void BrowserOptionDialog::loadSettings()
     m_ui->chromiumSupport->setChecked(settings->chromiumSupport());
     m_ui->firefoxSupport->setChecked(settings->firefoxSupport());
     m_ui->vivaldiSupport->setChecked(settings->vivaldiSupport());
+    m_ui->torBrowserSupport->setChecked(settings->torBrowserSupport());
 
 #if defined(KEEPASSXC_DIST_APPIMAGE)
     m_ui->supportBrowserProxy->setChecked(true);
@@ -135,6 +136,7 @@ void BrowserOptionDialog::saveSettings()
     settings->setChromiumSupport(m_ui->chromiumSupport->isChecked());
     settings->setFirefoxSupport(m_ui->firefoxSupport->isChecked());
     settings->setVivaldiSupport(m_ui->vivaldiSupport->isChecked());
+    settings->setTorBrowserSupport(m_ui->torBrowserSupport->isChecked());
 }
 
 void BrowserOptionDialog::showProxyLocationFileDialog()

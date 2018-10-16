@@ -255,6 +255,10 @@ Please select whether you want to allow access.</translation>
         <translation>&amp;Vivaldi</translation>
     </message>
     <message>
+        <source>&amp;Tor Browser</source>
+        <translation>&amp;Tor Browser</translation>
+    </message>
+    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>Show a &amp;notification when credentials are requested</translation>

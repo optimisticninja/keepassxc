@@ -253,6 +253,10 @@ Please select whether you want to allow access.</source>
         <translation>Vivaldi(&amp;V)</translation>
     </message>
     <message>
+	<source>&amp;Tor Browser</source>
+	<translation>Tor(&amp;T) Browser</translation>
+    </message>
+    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>인증 정보가 필요할 때 알림 표시(&amp;N)</translation>

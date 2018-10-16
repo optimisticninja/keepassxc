@@ -42,6 +42,7 @@ HostInstaller::HostInstaller()
     , TARGET_DIR_CHROME("/.config/google-chrome/NativeMessagingHosts")
     , TARGET_DIR_CHROMIUM("/.config/chromium/NativeMessagingHosts")
     , TARGET_DIR_FIREFOX("/.mozilla/native-messaging-hosts")
+    , TARGET_DIR_TOR_BROWSER("/.tor-browser/app/Browser/TorBrowser/Data/Browser/.mozilla/native-messaging-hosts")
     , TARGET_DIR_VIVALDI("/.config/vivaldi/NativeMessagingHosts")
 #elif defined(Q_OS_WIN)
     , TARGET_DIR_CHROME("HKEY_CURRENT_USER\\Software\\Google\\Chrome\\NativeMessagingHosts\\org.keepassxc.keepassxc_browser")
@@ -118,6 +119,8 @@ QString HostInstaller::getTargetPath(SupportedBrowsers browser) const
         return TARGET_DIR_FIREFOX;
     case SupportedBrowsers::VIVALDI:
         return TARGET_DIR_VIVALDI;
+    case SupportedBrowsers::TOR_BROWSER:
+	return TARGET_DIR_TOR_BROWSER;
     default:
         return QString();
     }
@@ -134,6 +137,8 @@ QString HostInstaller::getBrowserName(SupportedBrowsers browser) const
         return "firefox";
     case SupportedBrowsers::VIVALDI:
         return "vivaldi";
+    case SupportedBrowsers::TOR_BROWSER:
+	return "tor-browser";
     default:
         return QString();
     }
@@ -206,7 +211,7 @@ QJsonObject HostInstaller::constructFile(SupportedBrowsers browser, const bool& 
     script["type"] = "stdio";
 
     QJsonArray arr;
-    if (browser == SupportedBrowsers::FIREFOX) {
+    if (browser == SupportedBrowsers::FIREFOX || browser == SupportedBrowsers::TOR_BROWSER) {
         for (const QString& extension : ALLOWED_EXTENSIONS) {
             arr.append(extension);
         }

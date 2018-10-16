@@ -254,6 +254,10 @@ Velg om du vil gi tilgang eller ikke.</translation>
         <translation>&amp;Vivaldi</translation>
     </message>
     <message>
+        <source>&amp;Tor Browser</source>
+        <translation>&amp;Tor Browser</translation>
+    </message>
+    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>Vis et &amp;varsel når legitimasjon blir forespurt</translation>
