@@ -254,10 +254,6 @@ Please select whether you want to allow access.</source>
         <translation>Vivaldi(&amp;V)</translation>
     </message>
     <message>
-        <source>&amp;Tor Browser</source>
-        <translation>Tor(&amp;T) Browser</translation>
-    </message>
-    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>クレデンシャルを要求された際に通知を表示する(&amp;N)</translation>

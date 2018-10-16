@@ -254,10 +254,6 @@ Geef aan of je toegang wilt verlenen of niet.</translation>
         <translation>&amp;Vivaldi</translation>
     </message>
     <message>
-        <source>&amp;Tor Browser</source>
-        <translation>&amp;Tor Browser</translation>
-    </message>
-    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>Toon een &amp;melding wanneer inloggegevens worden gevraagd</translation>

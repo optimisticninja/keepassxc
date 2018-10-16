@@ -254,10 +254,6 @@ Seleziona se vuoi consentire l&apos;accesso.</translation>
         <translation>&amp;Vivaldi</translation>
     </message>
     <message>
-        <source>&amp;Tor Browser</source>
-        <translation>&amp;Tor Browser</translation>
-    </message>
-    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>Visualizza una &amp;notifica quando sono richieste le credenziali</translation>

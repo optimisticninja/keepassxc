@@ -254,10 +254,6 @@ Please select whether you want to allow access.</source>
         <translation>&amp;ভিভালডি</translation>
     </message>
     <message>
-        <source>&amp;Tor Browser</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Show a &amp;notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
         <translation>প্রমাণপ্রত্রাদি অনুরোধ করা হলে একটি &amp;বিজ্ঞপ্তি দেখান</translation>
