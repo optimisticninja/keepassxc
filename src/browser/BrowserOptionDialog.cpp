@@ -56,7 +56,7 @@ BrowserOptionDialog::BrowserOptionDialog(QWidget* parent)
     // Vivaldi uses Chrome's registry settings
     m_ui->vivaldiSupport->setHidden(true);
     m_ui->chromeSupport->setText("Chrome and Vivaldi");
-    m_ui->torBrowserSupport->setText("Tor Browser");)
+    m_ui->torBrowserSupport->setText("Tor Browser");
 #endif
     m_ui->browserGlobalWarningWidget->setVisible(false);
 }
